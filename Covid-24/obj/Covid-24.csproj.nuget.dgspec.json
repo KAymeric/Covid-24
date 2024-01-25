@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rexos\\source\\repos\\Covid-24\\Covid-24\\Covid-24.csproj": {}
+    "C:\\Users\\mayeu\\source\\repos\\KAymeric\\Covid-24\\Covid-24\\Covid-24.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rexos\\source\\repos\\Covid-24\\Covid-24\\Covid-24.csproj": {
+    "C:\\Users\\mayeu\\source\\repos\\KAymeric\\Covid-24\\Covid-24\\Covid-24.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rexos\\source\\repos\\Covid-24\\Covid-24\\Covid-24.csproj",
+        "projectUniqueName": "C:\\Users\\mayeu\\source\\repos\\KAymeric\\Covid-24\\Covid-24\\Covid-24.csproj",
         "projectName": "Covid-24",
-        "projectPath": "C:\\Users\\rexos\\source\\repos\\Covid-24\\Covid-24\\Covid-24.csproj",
-        "packagesPath": "C:\\Users\\rexos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rexos\\source\\repos\\Covid-24\\Covid-24\\obj\\",
+        "projectPath": "C:\\Users\\mayeu\\source\\repos\\KAymeric\\Covid-24\\Covid-24\\Covid-24.csproj",
+        "packagesPath": "C:\\Users\\mayeu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mayeu\\source\\repos\\KAymeric\\Covid-24\\Covid-24\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rexos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mayeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

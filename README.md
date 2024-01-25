@@ -1,8 +1,7 @@
 # Covid-24
 
-## Caution
-This program is a virus, it will infect your computer and block it on a french flag with a the top volume level the french national anthem. 
-If you want to use it, do it on a virtual machine.
+## Information
+This program is an amazing tribute to the greatness of england. Feel free to dowload and use it on your own computer. God Save the Queen !
 
 ## Attention
 Ce programme est un virus, il va infecter votre ordinateur et le bloquer sur un drapeau français avec le volume au maximum jouant la Marseillaise.

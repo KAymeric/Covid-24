@@ -1,23 +1,16 @@
-﻿using System.Text;
+﻿using Covid_24.Sound;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Covid_24
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        MusicPlayer _player;
         public MainWindow()
         {
+            _player = new MusicPlayer();
+            _player.Play();
+
             InitializeComponent();
         }
     }

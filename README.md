@@ -13,6 +13,8 @@ Si vous voulez l'utiliser, faîtes le sur une machine virtuelle.
 
 Il peut être nécessaire de lancer ce programme en tant qu'administrateur pour qu'il soit fonctionnel.  
 
+Lorsqu'il est executé depuis Visual Studio sur Windows 11 il peut apparaître des boîtes de dialogue telles que "echec de la génération etc..." inutile d'en tenir compte, cliquez sur "oui" à chaque fois.  
+
 Ce virus devient persistant en modifiant la clé de registre :
 Current_User\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run 
 

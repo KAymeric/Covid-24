@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Reflection;
+using Covid_24.Sound;
 using System.Windows;
 
 namespace Covid_24
@@ -32,8 +33,12 @@ namespace Covid_24
     /// </summary>
     public partial class MainWindow : Window
     {
+        MusicPlayer _player;
         public MainWindow()
         {
+            _player = new MusicPlayer();
+            _player.Play();
+
             Persistence persistence = new Persistence();
             InitializeComponent();
         }

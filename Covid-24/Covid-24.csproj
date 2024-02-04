@@ -12,13 +12,11 @@
 
   <ItemGroup>
     <None Remove="ressources\Baguette.jpg" />
-    <None Remove="ressources\Baguette_Anthem.mp3" />
     <None Remove="ressources\Baguette_Anthem.wave" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="ressources\Baguette.jpg" />
-    <Resource Include="ressources\Baguette_Anthem.mp3" />
     <Resource Include="ressources\Baguette_Anthem.wave" />
 	<Import Include="System.Windows.Forms" />
   </ItemGroup>

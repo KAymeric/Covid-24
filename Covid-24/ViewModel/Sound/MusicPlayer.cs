@@ -1,18 +1,17 @@
 ﻿using System.IO;
 using System.Media;
 
-namespace Covid_24.Sound
+namespace Covid_24.ViewModel.Sound
 {
-    internal class MusicPlayer
+    internal class MusicPlayer : APlayer
     {
-        private SoundPlayer _player;
-        private SoundManager _manager;
-        public MusicPlayer() {
+        public MusicPlayer()
+        {
             _player = GetPlayer();
             _manager = new SoundManager();
         }
 
-        public void Play()
+        public override void Play()
         {
             bool _soundFinished = true;
 
@@ -27,14 +26,14 @@ namespace Covid_24.Sound
             }
         }
 
-        private void VolumeBlocker()
+        protected override void VolumeBlocker()
         {
             _manager.VolMax();
         }
 
-        private SoundPlayer GetPlayer()
+        protected override SoundPlayer GetPlayer()
         {
-            string _WaweFile = "\\ressources\\Baguette_Anthem.wave";
+            string _WaweFile = "\\View\\ressources\\Baguette_Anthem.wave";
             string _rootLocation = typeof(MainWindow).Assembly.Location;
             string _parentDirectory = Path.Combine(Path.GetDirectoryName(_rootLocation), "..\\..\\..");
             string _fullPath = Path.GetFullPath(_parentDirectory);

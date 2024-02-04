@@ -11,13 +11,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ressources\Baguette.jpg" />
-    <None Remove="ressources\Baguette_Anthem.wave" />
+    <None Remove="View\ressources\Baguette.jpg" />
+    <None Remove="View\ressources\Baguette_Anthem.wave" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="ressources\Baguette.jpg" />
-    <Resource Include="ressources\Baguette_Anthem.wave" />
+    <ApplicationDefinition Include="View\App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\ressources\Baguette.jpg" />
+    <Resource Include="View\ressources\Baguette_Anthem.wave" />
 	<Import Include="System.Windows.Forms" />
   </ItemGroup>
 

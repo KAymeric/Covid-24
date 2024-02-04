@@ -9,6 +9,6 @@
         WindowStyle = "None"
         WindowState="Maximized">
     <Grid>
-        <Image Stretch="Fill" Source="ressources/Baguette.jpg"></Image>
+        <Image Stretch="Fill" Source="View/ressources/Baguette.jpg"></Image>
     </Grid>
 </Window>

@@ -40,3 +40,6 @@ C:\Users\mayeu\source\repos\KAymeric\Covid-24\Covid-24\obj\Debug\net8.0-windows\
 C:\Users\rexos\source\repos\Covid-24\Covid-24\obj\Debug\net8.0-windows\View\App.g.cs
 C:\Users\rexos\source\repos\Covid-24\Covid-24\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\rexos\source\repos\Covid-24\Covid-24\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\leona\source\repos\Covid-2442\Covid-24\obj\Debug\net8.0-windows\Covid-24.dll
+C:\Users\leona\source\repos\Covid-2442\Covid-24\obj\Debug\net8.0-windows\refint\Covid-24.dll
+C:\Users\leona\source\repos\Covid-2442\Covid-24\obj\Debug\net8.0-windows\Covid-24.pdb
